@@ -1,0 +1,24 @@
+Objetivo: 
+  explorar falhas,
+  Garantir acesso,
+  Executar ações e extrair dados.
+
+Ferramenta:
+  Metasploit pelo kali-linux
+
+Como o metasploit funciona?
+  Ele envia pacotes ao usuário, o usuário se conecta e entao libera acesso para o atacante.
+
+Ferramentas Metasploit:
+  msfconsole: modo console;
+  msfweb: para interface gráfica via web;
+  msfplayload: gera e customiza payload;
+  msfcli: interface de automatização de invasão.
+  msflogdump: exibira sessões de arquivos.
+
+Payloads: São os pacotes enviados
+
+No Kali:
+  1) Execute o Metasploit;
+  2) command: search vsftpd;
+  3) command: use + diretorio do backdoor que foi mostrado no comando anterior;
