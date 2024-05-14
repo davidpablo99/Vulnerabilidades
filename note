@@ -35,3 +35,26 @@ No Kali:
   7) command: set payloads + nome do arquivo encontrado no command 6
   8) command: show options; //Veja que agora esta definido o ip.
   9) command: exploit
+
+------------------------------------------------------------------
+                  ATAQUE DoS NO WINDOWS RDP
+------------------------------------------------------------------
+
+NO KALI EXECUTE:
+
+1) Metasploit
+2) search rdp, escolha a opção que tem auxiliary/dos/window..
+3) copie
+4) command : use + cole o arquivo copiado
+5) set rhosts + ip da maquina
+6) run; // pronto, ja executou o ataque
+
+------------------------------------------------------------------
+                  FALHAS NO SSH
+------------------------------------------------------------------
+
+NO KALI:
+
+1) metasploit
+2) execute a maquina vuneravel metasploit table
+3) 
